@@ -10,7 +10,6 @@ pause
 
 ## weba to wav.bat
 Converter arquivos.weba para wav (serve também para outros formatos de exportação em vez de .wav pode-se utilizar .mp3), nesse caso foi utilizado o audio de videos do YouTube
-_
 ```
 ffmpeg -i videoplayback.weba -vn -acodec pcm_s16le -ar 44100 -ac 2 output.wav
 pause
